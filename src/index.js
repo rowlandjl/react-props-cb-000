@@ -19,7 +19,7 @@ ReactDOM.render(
   <MovieCard 
     title="Jurassic World" 
     poster="http://image.tmdb.org/t/p/w342/jjBgi2r5cRt36xF6iNUEhzscEcb.jpg"
-    genres={madMaxGenres}
+    genres={jurassicWorldGenresGenres}
   />,
   document.getElementById('root')
 );
