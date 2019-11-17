@@ -14,6 +14,6 @@ class MovieCard extends React.Component {
 }
  
 ReactDOM.render(
-  <MovieCard />,
+  <MovieCard title="Mad Max: Fury Road" poster= />,
   document.getElementById('root')
 );
