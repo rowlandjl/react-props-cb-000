@@ -13,7 +13,7 @@ class MovieCard extends React.Component {
   }
 }
 
-const madMaxGenres = 
+const madMaxGenres = ['Action', 'Adventure', 'Science Fiction', 'Thriller'];
  
 ReactDOM.render(
   <MovieCard 
