@@ -5,7 +5,7 @@ class MovieCard extends React.Component {
   render() {
     return (
       <div className="movie-card">
-        <img src={this.props.poster} alt="Mad Max: Fury Road" />
+        <img src={this.props.poster} alt={this.props.title} />
         <h2>Mad Max: Fury Road</h2>
         <small>Genres: Action, Adventure, Science Fiction, Thriller</small>
       </div>
