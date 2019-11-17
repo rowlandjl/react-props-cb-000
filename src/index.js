@@ -17,7 +17,7 @@ const jurassicWorldGenres = ['Action', 'Adventure', 'Science Fiction', 'Thriller
  
 ReactDOM.render(
   <MovieCard 
-    title="Mad Max: Fury Road" 
+    title="Jurassic World" 
     poster="http://image.tmdb.org/t/p/w342/kqjL17yufvn9OVLyXYpvtyrFfak.jpg" 
     genres={madMaxGenres}
   />,
