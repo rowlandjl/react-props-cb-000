@@ -12,6 +12,8 @@ class MovieCard extends React.Component {
     );
   }
 }
+
+const madMaxGenres = 
  
 ReactDOM.render(
   <MovieCard 
