@@ -7,7 +7,7 @@ class MovieCard extends React.Component {
       <div className="movie-card">
         <img src={this.props.poster} alt={this.props.title} />
         <h2>{this.props.title}</h2>
-        <small>Genres: Action, Adventure, Science Fiction, Thriller</small>
+        <small>Genres: {this.props.genres.join(', ')}</small>
       </div>
     );
   }
